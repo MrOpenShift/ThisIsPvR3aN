@@ -1,6 +1,6 @@
 <?php
 
-define('BOT_TOKEN', '246902967:AAE7NDTTHkLqb9BszGY9GtJKVWXO0Hw_hbc');
+define('BOT_TOKEN', '241415660:AAE3pfDM9g0G3dOhNnNnFqShzUnIT4YJo4M');
 define('API_URL', 'https://api.telegram.org/bot'.BOT_TOKEN.'/');
 
 function apiRequestWebhook($method, $parameters) {
@@ -136,7 +136,7 @@ function processMessage($message) {
 
 🔹هر نفر = یک ربات ✖️
 🔸ربات دوم = 5000ت ✔️
-🤖 @PmResan_RBot',"parse_mode"=>"MARKDOWN","disable_web_page_preview"=>"true"));
+🤖 @PVR3AN_ROBOT',"parse_mode"=>"MARKDOWN","disable_web_page_preview"=>"true"));
 
 
 $txxt = file_get_contents('members.txt');
@@ -263,7 +263,7 @@ $output = curl_exec($ch);
 🔸ربات دوم = 5000ت ✔️
 
 🤖 در صورت تمایل به ساخت ربات های بیشتر به ایدی زیر پیام دهید.
-🚀 @nawr_i_man_bot"));
+🚀 @P0WKER"));
       }
     }
       
@@ -342,7 +342,7 @@ $output = curl_exec($ch);
 🔸ربات دوم = 5000ت ✔️
 
 🤖 در صورت تمایل به ساخت ربات های بیشتر به ایدی زیر پیام دهید.
-🚀 @nawr_i_man_bot"));
+🚀 @P0WKER"));
       }
 
     }
@@ -391,5 +391,4 @@ if (!$update) {
 if (isset($update["message"])) {
   processMessage($update["message"]);
 }
-
 
